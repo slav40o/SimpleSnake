@@ -1,0 +1,31 @@
+body, canvas, div{
+    margin: 0;
+    padding: 0;
+}
+
+#game-container{
+    position: absolute;
+    width: 850px;
+    height: 600px;
+    margin: 20px;
+}
+
+#stats-canvas{
+    background-color: #000;
+    position: absolute;
+}
+
+#back-canvas{
+    background-color: #3A4719;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+
+#act-canvas{
+    background-color: transparent;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border: 1px solid black;
+}
